@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitão</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+        }
+        div.quebra{
+            position: unset;
+        }
+        div.anima{
+            position: absolute;
+            top: 50px;
+            left: 500px;
+            width: 100px;
+            height: 50px;
+            font-size: 25px;
+            color: red;
+        }
+        .anima{
+            animation: move 5s linear alternate;
+            animation-fill-mode: forwards;
+        }
+        @keyframes move {
+            from {
+                top: 100px;
+                left: 800px;
+                }
+
+            to {
+                top: 100px;
+                left: 500px;
+            }
+        }
+        p {font-family: Arial;font-size: 15px;color: red;}
+        h1 {font-family: 'Times New Roman';font-size: 35;color: red;}
+        div.azul{
+            display: inline-block;
+            border: 5px solid red;
+            border-radius: 15px;
+            background-color: red;
+            width: 400px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: 400px;
+        }
+        div#q1{
+            background-image: url(fotinho.jpg);
+        }
+    </style>
+    </head>
+    
+    <body>
+        <div class="azul" id="q1">
+            
+        </div>
+    <title>primeiro site</title>
+    <div class="anima">
+        <h1><strong>Este e meu dominio!</strong></h1>
+    </div>
+    <div class="quebra">
+        <p><strong>PREPARESE!!!</strong></p>
+        <p><strong>VIDEO ENSINANDO: https://www.youtube.com/watch?v=4Gq3WW6FwVA</strong></p>  
+        <p><strong>OUTRO VIDEO: https://www.youtube.com/watch?v=9hV5oXi80-A</strong></p>
+    </div>
+</body>
+</html>
